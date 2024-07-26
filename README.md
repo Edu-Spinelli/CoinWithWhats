@@ -84,7 +84,18 @@ Veja abaixo um exemplo de uso da aplicação no WhatsApp:
 
 Se quiser contribuir, por favor faça um fork do repositório e envie um pull request com suas mudanças.
 
+## Futuras Implementações
+
+- **Compra e Venda de Criptomoedas**: Implementar funcionalidades para comprar e vender criptomoedas diretamente através da API da Binance.
+- **Conteinerização**: Colocar a aplicação para rodar em contêineres Docker, facilitando o deploy e a escalabilidade.
+- **Hospedagem na Nuvem**: Configurar a aplicação para rodar em plataformas de nuvem, como AWS, Google Cloud, Azure ou Heroku.
+- **Utilização da API do GPT**: Integrar a API do GPT para fornecer dicas e análises de mercado baseadas em inteligência artificial.
+- **Alertas de Preço**: Implementar alertas configuráveis para notificar os usuários quando o preço de uma criptomoeda atingir um valor específico.
+
+## Autor
+
+- **Eduardo Spinelli** - [Edu-Spinelli](https://github.com/Edu-Spinelli)
+
 ## Licença
 
 Este projeto está licenciado sob a MIT License. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
