@@ -7,7 +7,7 @@ Crypto Price Bot é uma aplicação que utiliza Twilio e a API da Binance para m
 - Responde com o preço atual de uma criptomoeda.
 - Retorna o histórico de preços das últimas 24 horas para uma criptomoeda específica.
 - Permite configurar alertas de preço.
-- Suporta todas as criptomoedas da Binance
+- Suporta todas as criptomoedas da Binance.
 
 ## Configuração
 
@@ -74,7 +74,17 @@ Envie uma mensagem para o número do WhatsApp Sandbox do Twilio com:
 - "historico [nome_da_moeda]" (ex: "historico bitcoin") para receber o histórico de preços das últimas 24 horas.
 - "comprar" ou "descartar" para testar respostas interativas.
 
+## Exemplo de Uso
+
+Veja abaixo um exemplo de uso da aplicação no WhatsApp:
+
+![Exemplo de Uso](images/foto.png)
+
 ## Contribuição
 
 Se quiser contribuir, por favor faça um fork do repositório e envie um pull request com suas mudanças.
 
+## Licença
+
+Este projeto está licenciado sob a MIT License. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+```
