@@ -53,7 +53,16 @@ def sms_reply():
             except Exception as e:
                 response_message = f"Erro ao obter o histórico de preços: {e}"
         else:
-            response_message = "Formato inválido. Use 'historico [nome_da_moeda]'. Ex: 'historico bitcoin'"
+            try :
+                symbol = parts[1].upper() + 'USDT'
+                historical_prices = get_historical_prices(symbol, '1d', "1 month ago UTC")
+                if historical_prices:
+                    response_message = f"Histórico de preços para {parts[1].capitalize()} ({symbol}):\n"
+                    response_message += "\n".join([f"{time.date()}: {price}" for time, price in historical_prices[-7:]])  # Últimos 7 dias
+                else:
+                    response_message = "Não foi possível obter o histórico de preços. Por favor, tente novamente mais tarde."
+            except Exception as e:
+                response_message = "Formato inválido. Use 'historico [nome_da_moeda]'. Ex: 'historico bitcoin'"
     else:
         if body in crypto_mapping:
             symbol = crypto_mapping[body]
