@@ -65,11 +65,12 @@ def sms_reply():
                 response_message = "Erro ao obter o preço. Por favor, tente novamente mais tarde."
         else:
             try:
-                current_price = get_price(body.capitalize())
+                symbol = body.upper() + 'USDT'
+                current_price = get_price(symbol)
                 response_message = f"O preço atual de {body.capitalize()} ({symbol}) é {current_price:.2f}"
 
             except Exception as e:
-                response_message = f"Moeda não reconhecida. Por favor, envie 'comprar', 'descartar' ou o nome {body} de uma criptomoeda válida (ex: bitcoin, ethereum)."
+                response_message = f"Moeda não reconhecida. Por favor, envie 'comprar', 'descartar' ou o nome {body.upper()} de uma criptomoeda válida (ex: bitcoin, ethereum)."
 
     resp = MessagingResponse()
     resp.message(response_message)

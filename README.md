@@ -1,13 +1,13 @@
 # Crypto Price Bot
 
-Crypto Price Bot é uma aplicação que utiliza Twilio e a API da Binance para monitorar preços de criptomoedas e responder a mensagens no WhatsApp. O projeto reconhece os nomes das principais criptomoedas e mapeia esses nomes para seus respectivos símbolos na Binance.
+Crypto Price Bot é uma aplicação que utiliza Twilio e a API da Binance para monitorar preços de criptomoedas e responder a mensagens no WhatsApp. O projeto reconhece os nomes de todas as moedas e mapeia esses nomes para seus respectivos símbolos na Binance.
 
 ## Funcionalidades
 
 - Responde com o preço atual de uma criptomoeda.
 - Retorna o histórico de preços das últimas 24 horas para uma criptomoeda específica.
 - Permite configurar alertas de preço.
-- Suporta as principais criptomoedas, incluindo Bitcoin, Ethereum, Binance Coin, Ripple, Cardano, Solana, Dogecoin, Polkadot, Litecoin e Chainlink.
+- Suporta todas as criptomoedas da Binance
 
 ## Configuração
 
