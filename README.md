@@ -87,4 +87,4 @@ Se quiser contribuir, por favor faça um fork do repositório e envie um pull re
 ## Licença
 
 Este projeto está licenciado sob a MIT License. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-```
+
