@@ -47,6 +47,7 @@ Crypto Price Bot é uma aplicação que utiliza Twilio e a API da Binance para m
    TWILIO_AUTH_TOKEN=your_twilio_auth_token
    BINANCE_API_KEY=your_binance_api_key
    BINANCE_API_SECRET=your_binance_api_secret
+   SECRET_KEY=your_flask_secret_key
    ```
 
 5. Execute o servidor Flask:
@@ -72,6 +73,7 @@ Envie uma mensagem para o número do WhatsApp Sandbox do Twilio com:
 
 - O nome de uma criptomoeda (ex: "bitcoin") para receber o preço atual.
 - "historico [nome_da_moeda]" (ex: "historico bitcoin") para receber o histórico de preços das últimas 24 horas.
+- "definir [nome_da_moeda] [preço]" (ex: "definir sol 180") para definir alertas de preço.
 - "comprar" ou "descartar" para testar respostas interativas.
 
 ## Exemplo de Uso
@@ -95,7 +97,9 @@ Se quiser contribuir, por favor faça um fork do repositório e envie um pull re
 ## Autor
 
 - **Eduardo Spinelli** - [Edu-Spinelli](https://github.com/Edu-Spinelli)
+- **Matheus Bessa** - [Matheus-Bessa](https://github.com/mthsB3ssa)
 
 ## Licença
 
 Este projeto está licenciado sob a MIT License. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
