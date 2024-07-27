@@ -94,7 +94,7 @@ Se quiser contribuir, por favor faça um fork do repositório e envie um pull re
 - **Utilização da API do GPT**: Integrar a API do GPT para fornecer dicas e análises de mercado baseadas em inteligência artificial.
 - **Alertas de Preço**: Implementar alertas configuráveis para notificar os usuários quando o preço de uma criptomoeda atingir um valor específico.
 
-## Autor
+## Autores
 
 - **Eduardo Spinelli** - [Edu-Spinelli](https://github.com/Edu-Spinelli)
 - **Matheus Bessa** - [Matheus-Bessa](https://github.com/mthsB3ssa)
