@@ -1,13 +1,25 @@
 # Crypto Price Bot
 
-Crypto Price Bot é uma aplicação que utiliza Twilio e a API da Binance para monitorar preços de criptomoedas e responder a mensagens no WhatsApp. O projeto reconhece os nomes de todas as moedas e mapeia esses nomes para seus respectivos símbolos na Binance.
+Crypto Price Bot é uma aplicação inovadora que utiliza diversas tecnologias modernas para monitorar preços de criptomoedas em tempo real e responder a mensagens no WhatsApp. Este projeto é ideal para entusiastas de criptomoedas que desejam manter-se atualizados com os preços das moedas e configurar alertas personalizados.
+
+## Tecnologias Utilizadas
+
+- **Python**: Linguagem principal utilizada para desenvolver a aplicação.
+- **Flask**: Framework web utilizado para construir a API REST e gerenciar as rotas.
+- **Twilio**: Plataforma de comunicação utilizada para enviar e receber mensagens no WhatsApp.
+- **Binance API**: API da Binance utilizada para obter dados de preços de criptomoedas em tempo real.
+- **WebSockets**: Utilizados para estabelecer uma conexão contínua com a Binance e receber atualizações em tempo real.
+- **Docker**: (Em implementação) Para conteinerização e fácil deploy da aplicação.
+- **ngrok**: (Opcional) Para expor a aplicação localmente durante o desenvolvimento.
+- **dotenv**: Para carregar variáveis de ambiente de um arquivo .env.
 
 ## Funcionalidades
 
-- Responde com o preço atual de uma criptomoeda.
-- Retorna o histórico de preços das últimas 24 horas para uma criptomoeda específica.
-- Permite configurar alertas de preço.
-- Suporta todas as criptomoedas da Binance.
+- **Monitoramento de Preços**: Responde com o preço atual de qualquer criptomoeda listada na Binance.
+- **Histórico de Preços**: Retorna o histórico de preços das últimas 24 horas para uma criptomoeda específica.
+- **Alertas de Preço**: Permite configurar alertas personalizados para quando o preço de uma criptomoeda atinge um valor específico.
+- **Suporte Completo para Criptomoedas**: Suporta todas as criptomoedas disponíveis na Binance.
+- **Respostas Interativas**: Comandos personalizados para interagir com o bot via WhatsApp.
 
 ## Configuração
 
@@ -82,10 +94,6 @@ Veja abaixo um exemplo de uso da aplicação no WhatsApp:
 
 ![Exemplo de Uso](images/foto.png)
 
-## Contribuição
-
-Se quiser contribuir, por favor faça um fork do repositório e envie um pull request com suas mudanças.
-
 ## Futuras Implementações
 
 - **Compra e Venda de Criptomoedas**: Implementar funcionalidades para comprar e vender criptomoedas diretamente através da API da Binance.
@@ -93,6 +101,11 @@ Se quiser contribuir, por favor faça um fork do repositório e envie um pull re
 - **Hospedagem na Nuvem**: Configurar a aplicação para rodar em plataformas de nuvem, como AWS, Google Cloud, Azure ou Heroku.
 - **Utilização da API do GPT**: Integrar a API do GPT para fornecer dicas e análises de mercado baseadas em inteligência artificial.
 - **Alertas de Preço**: Implementar alertas configuráveis para notificar os usuários quando o preço de uma criptomoeda atingir um valor específico.
+- **Interface Web**: Desenvolver uma interface web para gerenciar alertas e visualizar dados de mercado.
+
+## Contribuição
+
+Se quiser contribuir, por favor faça um fork do repositório e envie um pull request com suas mudanças.
 
 ## Autores
 
@@ -102,4 +115,5 @@ Se quiser contribuir, por favor faça um fork do repositório e envie um pull re
 ## Licença
 
 Este projeto está licenciado sob a MIT License. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
 
